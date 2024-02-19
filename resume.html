@@ -17,55 +17,11 @@
         <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+        <link rel="stylesheet" href="toggle.css">
     </head>
  <body class="bg-dark-slate-blue">
-    <header>
-        <!-- start navigation -->
-        <nav class="navbar top-space navbar-expand-lg navbar-boxed navbar-dark bg-black header-dark fixed-top responsive-sticky">
-            <div class="container-fluid-fluid nav-header-container-fluid">
-                <div class="col-auto d-flex col-sm-6 col-lg-4 mr-auto pl-lg-0">
-                    <a class="navbar-brand" href="index.html" class="col-lg-3">
-                        <img src="images/madhuri.jpg" data-at2x="images/madhuri.jpg" class="default-logo" alt="">
-                        <img src="images/madhuri.jpg" data-at2x="images/madhuri.jpg" class="alt-logo" alt="">
-                        <img src="images/madhuri.jpg" data-at2x="images/madhuri.jpg" class="mobile-logo" alt="">
-                    </a>
-                    <div class="col-auto justify-content-center text-white padding-1-rem-top text-large"> <p>Madhuri Sonawane</p></div>
-                </div>
-                <div class="col-auto menu-order px-lg-0">
-                    <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-line"></span>
-                        <span class="navbar-toggler-line"></span>
-                        <span class="navbar-toggler-line"></span>
-                        <span class="navbar-toggler-line"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                        <ul class="navbar-nav alt-font">
-                            <li class="nav-item dropdown megamenu">
-                                <a href="index.html" class="nav-link">Home</a>
-                               
-                            </li>
-                            <li class="nav-item dropdown simple-dropdown">
-                                <a href="resume.html" class="nav-link">Resume</a>
-                                
-                            </li>
-                           
-                            <li class="nav-item dropdown megamenu">
-                                <a href="https://wa.me/7620401097?text=your_message" class="nav-link" target="_blank"> <i class="fab fa-whatsapp icon-small "></i></a>
-                             
-                            </li>
-                          
-                        </ul>
-                    </div>
-                </div>
-              
-                   
-                  
-                
-            </div>
-        </nav>
-        <!-- end navigation -->
-    </header>
-    <div class="container-fluid text-white">
+   <special-header></special-header>
+    <div class="container-fluid text-white padding-8-rem-top">
         <div class="row">
           <div class="col-md-12 col-lg-12 ">
             <div class="col-lg-4">
@@ -307,15 +263,17 @@
           </div>
         </div>
      </section>
-
+     <special-footer></special-footer>
+      <script src="headerfooter.js"></script>
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/theme-vendors.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
      <script>
         // Get the current date
         const currentDate = new Date().toLocaleDateString('en-GB');
         // Update the date in the HTML
         document.getElementById('currentDate').textContent = currentDate;
       </script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/theme-vendors.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    
  </body>
 </html>
