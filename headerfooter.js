@@ -29,6 +29,10 @@ class SpecialHeader extends HTMLElement{
                             
                              <li class="nav-item dropdown megamenu">
                                  <a href="https://wa.me/7620401097?text=your_message" class="nav-link" target="_blank"> <i class="fab fa-whatsapp icon-small "></i></a>
+
+                                 <li class="nav-item dropdown megamenu">
+                                 <a class="nav-link" target="_blank"> <i id="darklight" class="feather icon-feather-moon
+                                 icon-small "></i></a>
                           
                          </ul>
 
