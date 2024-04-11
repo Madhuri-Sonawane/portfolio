@@ -120,15 +120,20 @@
            <DIV class="col-auto col-sm-12">
               <div class="d-flex">
                   <ul>
-                    <b>• Programming Languages:</b>
+                    <b>• WebTechnologies:</b>
                   </ul>
                   <p>HTML,CSS,BootStrap,JavaScript,React.js</p> 
               </div>
+              <div class="d-flex">
+               <ul>
+                 <b>• Programming Language:</b>
+               </ul>
+               <p>Java</p> 
+           </div>
               <div class="d-lg-flex d-sm-block">
                  <div class="d-lg-flex d-sm-block">
                     <b>• Personal skills:</b>
-                    <p>willing to add knowledge and skills, communication skills, teamwork, Problem solving ability, 
-                         Leadership skills, quick learner</p>
+                    <p>communication skills, teamwork, Problem solving ability,quick learner</p>
                  </div>
                  
               </div>
@@ -156,21 +161,21 @@
               <h6>PROJECT</h6>
            </div>
            <DIV class="col-auto col-sm-12">
-            <span class="d-flex" style="margin-bottom: -20px;">1.
-            <p class="margin-half-rem-left">
-              As my first project, I successfully created a clone of https://madhuri-sonawane.github.io/Myntraclone/. 
-              This involved implementing and demonstrating my ability.
-              
+            <span class="d-flex " style="margin-bottom: -20px;">
+            <p class="margin-half-rem-left ">
+              ○ Embark on a journey of real-time connection with our ReactJS-powered chat application. Seamlessly merging JavaScript
+brilliance with Node.js, Express, and MongoDB, we create a dynamic runtime chat system. Delve into the heartbeat of
+communication with Socket.IO, where every message becomes an instant connection. Experience the magic of live
+interaction, beautifully orchestrated for the modern web.
             </p></span>
-            <a href="https://madhuri-sonawane.github.io/Myntraclone/" class="">https://madhuri-sonawane.github.io/Myntraclone/</a>
-           </DIV>
-           <DIV class="col-auto col-sm-12">
-            <span class="d-flex" style="margin-bottom: -20px;">2
-            <p class="margin-half-rem-left">
-                .Designed and developed a responsive and interactive portfolio website using modern frontend technologies such as HTML5, CSS3, and JavaScript, ensuring seamless user experience across various devices and screen sizes.
-              
-            </p></span>
-            <a href="https://madhuri-sonawane.github.io/portfolio/" class=""> https://madhuri-sonawane.github.io/portfolio/</a>
+           <br>
+            <span class="d-flex" style="margin-bottom: -20px;">
+              <p class="margin-half-rem-left">
+                ○ Experience seamless currency conversion with our responsive tool, powered by JavaScript and API mastery. Effortlessly
+switch between currencies and witness real-time updates. Dive into the intricacies on GitHub for a glimpse into our
+innovation. Unlock global transactions with precision and elegance. <a href="https://madhuri-sonawane.github.io/currencyconverter/" style="text-decoration: underline;">Currency Converter</a>
+              </p></span>
+             
            </DIV>
         </div>
      </section>
@@ -268,7 +273,27 @@
       <script src="lightdark.js"></script> 
       <script type="text/javascript" src="js/jquery.min.js"></script>
       <script type="text/javascript" src="js/theme-vendors.min.js"></script>
-     
+      <script>
+         // Function to update the date
+         function updateDate() {
+             var currentDate = new Date();
+             var day = currentDate.getDate();
+             var month = currentDate.getMonth() + 1;
+             var year = currentDate.getFullYear();
+             
+             // Format the date as DD/MM/YYYY
+             var formattedDate = (day < 10 ? '0' : '') + day + '/' + (month < 10 ? '0' : '') + month + '/' + year;
+             
+             // Update the date in the HTML
+             document.getElementById('currentDate').innerText = formattedDate;
+         }
+ 
+         // Call updateDate function to set initial date
+         updateDate();
+ 
+         // Update the date every second
+         setInterval(updateDate, 1000);
+     </script>
     
  </body>
 </html>
