@@ -22,9 +22,7 @@ class SpecialHeader extends HTMLElement{
                                  <a href="index.html" class="nav-link">Home</a>
                                 
                              </li>
-                           
-                            
-                              
+                             
                              <li class="nav-item dropdown megamenu">
                                  <a href="https://wa.me/7620401097?text=your_message" class="nav-link" target="_blank"> <i class="fab fa-whatsapp icon-small "></i></a>
 
