@@ -22,10 +22,7 @@ class SpecialHeader extends HTMLElement{
                                  <a href="index.html" class="nav-link">Home</a>
                                 
                              </li>
-                             <li class="nav-item dropdown simple-dropdown">
-                                 <a href="resume.html" class="nav-link">Resume</a>
-                                 
-                             </li>
+                           
                             
                               
                              <li class="nav-item dropdown megamenu">
